@@ -1,0 +1,1 @@
+iverilog -o counter_tb.vvp counter_tb.v
