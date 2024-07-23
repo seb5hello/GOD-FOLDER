@@ -1,0 +1,2 @@
+# Do not ignore task.json within the .vscode directory
+!.vscode/task.json
