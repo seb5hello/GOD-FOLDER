@@ -1,0 +1,501 @@
+$date
+	Mon Jul 22 15:50:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Test_tb $end
+$var wire 1 ! trigger_ref $end
+$var wire 1 " trigger $end
+$var wire 5 # count_ref [4:0] $end
+$var wire 5 $ count [4:0] $end
+$var reg 1 % clk $end
+$var reg 1 & enable $end
+$var reg 1 ' reset $end
+$var reg 1 ( valid $end
+$var reg 5 ) value [4:0] $end
+$scope module timer_inst $end
+$var wire 1 % clk $end
+$var wire 1 * complete $end
+$var wire 5 + count [4:0] $end
+$var wire 1 & enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( valid $end
+$var wire 5 , value [4:0] $end
+$var wire 1 " trigger $end
+$var wire 5 - MUX3 [4:0] $end
+$var wire 5 . MUX2 [4:0] $end
+$var wire 5 / MUX1 [4:0] $end
+$var reg 5 0 IN [4:0] $end
+$scope module timer_fsm_inst $end
+$var wire 1 % clk $end
+$var wire 1 * complete $end
+$var wire 1 & enable $end
+$var wire 1 ' reset $end
+$var wire 1 " trigger $end
+$var parameter 32 1 COUNT $end
+$var parameter 32 2 DONE $end
+$var parameter 32 3 IDLE $end
+$var parameter 32 4 PAUSE $end
+$var reg 2 5 state [1:0] $end
+$var reg 2 6 state_next [1:0] $end
+$upscope $end
+$upscope $end
+$scope module timer_ref_inst $end
+$var wire 1 % clk $end
+$var wire 1 7 complete $end
+$var wire 5 8 count [4:0] $end
+$var wire 1 & enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( valid $end
+$var wire 5 9 value [4:0] $end
+$var wire 1 ! trigger $end
+$var wire 5 : out_next [4:0] $end
+$var wire 5 ; MUX2 [4:0] $end
+$var wire 5 < MUX1 [4:0] $end
+$var reg 5 = out [4:0] $end
+$scope module timer_fsm_ref_inst $end
+$var wire 1 % clk $end
+$var wire 1 7 complete $end
+$var wire 1 & enable $end
+$var wire 1 ' reset $end
+$var wire 1 ! trigger $end
+$var parameter 32 > COUNTING $end
+$var parameter 32 ? DONE $end
+$var parameter 32 @ IDLE $end
+$var parameter 32 A PAUSED $end
+$var reg 2 B state [1:0] $end
+$var reg 2 C state_next [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 A
+b0 @
+b11 ?
+b1 >
+b11 4
+b0 3
+b10 2
+b1 1
+$end
+#0
+$dumpvars
+b0 C
+b0 B
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+17
+b0 6
+b0 5
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+1*
+b0 )
+0(
+1'
+0&
+1%
+b0 $
+b0 #
+0"
+0!
+$end
+#10
+0%
+#20
+1%
+#30
+0%
+#40
+b101 -
+b101 :
+b101 .
+b101 ;
+1%
+1(
+b101 )
+b101 ,
+b101 9
+1&
+0'
+#50
+0%
+#60
+b1 6
+b1 C
+0*
+b100 /
+07
+b100 <
+b101 $
+b101 +
+b101 0
+b101 #
+b101 8
+b101 =
+b100 -
+b100 :
+b100 .
+b100 ;
+1%
+0(
+b0 )
+b0 ,
+b0 9
+#70
+0%
+#80
+b11 :
+b11 -
+b11 ;
+b11 .
+b11 <
+b11 /
+b1 B
+b100 #
+b100 8
+b100 =
+b100 $
+b100 +
+b100 0
+b1 5
+1%
+#90
+0%
+#100
+b10 -
+b10 :
+b10 .
+b10 ;
+b10 /
+b10 <
+b11 $
+b11 +
+b11 0
+b11 #
+b11 8
+b11 =
+1%
+#110
+0%
+#120
+b1 :
+b1 -
+b1 ;
+b1 .
+b1 <
+b1 /
+b10 #
+b10 8
+b10 =
+b10 $
+b10 +
+b10 0
+1%
+#130
+0%
+#140
+b0 -
+b0 :
+b0 .
+b0 ;
+b0 /
+b0 <
+b1 $
+b1 +
+b1 0
+b1 #
+b1 8
+b1 =
+1%
+#150
+0%
+#160
+b0 :
+b0 -
+b11 C
+b0 ;
+b10 6
+b0 .
+17
+b0 <
+1*
+b0 /
+b0 #
+b0 8
+b0 =
+b0 $
+b0 +
+b0 0
+1%
+#170
+0%
+#180
+b0 C
+1!
+b11 B
+b0 6
+1"
+b10 5
+1%
+#190
+0%
+#200
+0!
+b0 B
+0"
+b0 5
+b0 6
+b0 C
+1%
+0&
+#210
+0%
+#220
+1%
+#230
+0%
+#240
+b1010 -
+b1010 :
+b1010 .
+b1010 ;
+1%
+1(
+b1010 )
+b1010 ,
+b1010 9
+1&
+#250
+0%
+#260
+b1 6
+b1 C
+0*
+b1001 /
+07
+b1001 <
+b1010 $
+b1010 +
+b1010 0
+b1010 #
+b1010 8
+b1010 =
+b1001 -
+b1001 :
+b1001 .
+b1001 ;
+1%
+0(
+b0 )
+b0 ,
+b0 9
+#270
+0%
+#280
+b1000 :
+b1000 -
+b1000 ;
+b1000 .
+b1000 <
+b1000 /
+b1 B
+b1001 #
+b1001 8
+b1001 =
+b1001 $
+b1001 +
+b1001 0
+b1 5
+1%
+#290
+0%
+#300
+b111 -
+b111 :
+b111 .
+b111 ;
+b111 /
+b111 <
+b1000 $
+b1000 +
+b1000 0
+b1000 #
+b1000 8
+b1000 =
+1%
+#310
+0%
+#320
+b110 :
+b110 -
+b110 ;
+b110 .
+b110 <
+b110 /
+b111 #
+b111 8
+b111 =
+b111 $
+b111 +
+b111 0
+1%
+#330
+0%
+#340
+b101 -
+b101 :
+b101 .
+b101 ;
+b101 /
+b101 <
+b110 $
+b110 +
+b110 0
+b110 #
+b110 8
+b110 =
+1%
+#350
+0%
+#360
+b100 :
+b100 -
+b100 ;
+b100 .
+b100 <
+b100 /
+b101 #
+b101 8
+b101 =
+b101 $
+b101 +
+b101 0
+1%
+#370
+0%
+#380
+b11 -
+b11 :
+b11 .
+b11 ;
+b11 /
+b11 <
+b100 $
+b100 +
+b100 0
+b100 #
+b100 8
+b100 =
+1%
+#390
+0%
+#400
+b10 :
+b10 -
+b10 ;
+b10 .
+b10 <
+b10 /
+b11 #
+b11 8
+b11 =
+b11 $
+b11 +
+b11 0
+1%
+#410
+0%
+#420
+b1 -
+b1 :
+b1 .
+b1 ;
+b1 /
+b1 <
+b10 $
+b10 +
+b10 0
+b10 #
+b10 8
+b10 =
+1%
+#430
+0%
+#440
+b0 :
+b0 -
+b0 ;
+b0 .
+b0 <
+b0 /
+b1 #
+b1 8
+b1 =
+b1 $
+b1 +
+b1 0
+1%
+#450
+0%
+#460
+b0 -
+b0 :
+b10 6
+b0 .
+b11 C
+b0 ;
+1*
+b0 /
+17
+b0 <
+b0 $
+b0 +
+b0 0
+b0 #
+b0 8
+b0 =
+1%
+#470
+0%
+#480
+b0 C
+1!
+b11 B
+b0 6
+1"
+b10 5
+1%
+#490
+0%
+#500
+0!
+b0 B
+0"
+b0 5
+b0 6
+b0 C
+1%
+0&
+#510
+0%
+#520
+1%
+#530
+0%
+#540
+1%
