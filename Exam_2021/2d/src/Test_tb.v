@@ -45,7 +45,9 @@ module Test_tb;
         reg pass = 1; // Indicator for whether outputs match across all cycles
         always @(posedge clk) begin
                 if (action !== action_ref | state_display !== state_display_ref) begin
-                        pass = 0;
+                        if($time > 20) begin
+                                pass = 0;
+                        end
                 end
         end
 

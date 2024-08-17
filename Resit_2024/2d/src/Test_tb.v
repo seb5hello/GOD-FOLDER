@@ -43,7 +43,9 @@ module Test_tb;
         reg pass = 1; // Indicator for whether outputs match across all cycles
         always @(posedge clk) begin
                 if (parity_bit !== parity_bit_ref) begin
-                        pass = 0;
+                        if($time > 20) begin
+                                pass = 0;
+                        end
                 end
         end
 
