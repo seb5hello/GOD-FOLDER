@@ -55,7 +55,7 @@ module Test_tb;
         end
 
         // Task to finish simulation and print result
-        reg test_nr = 1; // Indicator for whether outputs match across all cycles
+        reg [7:0] test_nr = 1; // Indicator for whether outputs match across all cycles
         task test_evalutation();
                 begin
                 if (pass) begin

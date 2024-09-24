@@ -1,0 +1,504 @@
+$date
+	Mon Aug 19 19:30:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Test_tb $end
+$var wire 1 ! shift_ref $end
+$var wire 1 " shift $end
+$var wire 1 # sample_ref $end
+$var wire 1 $ sample $end
+$var reg 1 % clk $end
+$var reg 1 & cs $end
+$var reg 2 ' mode [1:0] $end
+$var reg 1 ( pass $end
+$var reg 1 ) reset $end
+$var reg 1 * sclk $end
+$var reg 8 + test_nr [7:0] $end
+$scope module spi_fsm_inst $end
+$var wire 1 % clk $end
+$var wire 1 & cs $end
+$var wire 2 , mode [1:0] $end
+$var wire 1 ) reset $end
+$var wire 1 $ sample $end
+$var wire 1 * sclk $end
+$var wire 1 " shift $end
+$var parameter 32 - CS $end
+$var parameter 32 . FIRST1 $end
+$var parameter 32 / FIRST3 $end
+$var parameter 32 0 LAST1 $end
+$var parameter 32 1 LAST3 $end
+$var parameter 32 2 MODE $end
+$var parameter 32 3 RESET $end
+$var parameter 32 4 SAMPLE0 $end
+$var parameter 32 5 SAMPLE1 $end
+$var parameter 32 6 SAMPLE2 $end
+$var parameter 32 7 SAMPLE3 $end
+$var parameter 32 8 SHIFT0 $end
+$var parameter 32 9 SHIFT1 $end
+$var parameter 32 : SHIFT2 $end
+$var parameter 32 ; SHIFT3 $end
+$var parameter 32 < WAIT_HI0 $end
+$var parameter 32 = WAIT_HI1 $end
+$var parameter 32 > WAIT_HI2 $end
+$var parameter 32 ? WAIT_HI3 $end
+$var parameter 32 @ WAIT_LO0 $end
+$var parameter 32 A WAIT_LO1 $end
+$var parameter 32 B WAIT_LO2 $end
+$var parameter 32 C WAIT_LO3 $end
+$var reg 5 D state [4:0] $end
+$var reg 5 E state_next [4:0] $end
+$upscope $end
+$scope module spi_fsm_ref_inst $end
+$var wire 1 % clk $end
+$var wire 1 & cs $end
+$var wire 2 F mode [1:0] $end
+$var wire 1 ) reset $end
+$var wire 1 * sclk $end
+$var parameter 32 G check_cs_hi $end
+$var parameter 32 H first1 $end
+$var parameter 32 I first3 $end
+$var parameter 32 J last1 $end
+$var parameter 32 K last3 $end
+$var parameter 32 L mode_select $end
+$var parameter 32 M rst $end
+$var parameter 32 N sample0 $end
+$var parameter 32 O sample1 $end
+$var parameter 32 P sample2 $end
+$var parameter 32 Q sample3 $end
+$var parameter 32 R shift0 $end
+$var parameter 32 S shift1 $end
+$var parameter 32 T shift2 $end
+$var parameter 32 U shift3 $end
+$var parameter 32 V wait0hi $end
+$var parameter 32 W wait0lo $end
+$var parameter 32 X wait1hi $end
+$var parameter 32 Y wait1lo $end
+$var parameter 32 Z wait2hi $end
+$var parameter 32 [ wait2lo $end
+$var parameter 32 \ wait3hi $end
+$var parameter 32 ] wait3lo $end
+$var reg 1 # sample $end
+$var reg 1 ! shift $end
+$var reg 5 ^ state_nxt [4:0] $end
+$var reg 5 _ state_r [4:0] $end
+$upscope $end
+$scope task finish_test $end
+$upscope $end
+$scope task test_evalutation $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 ]
+b1110 \
+b1001 [
+b1101 Z
+b111 Y
+b1100 X
+b1000 W
+b1011 V
+b10010 U
+b10001 T
+b10000 S
+b1111 R
+b10110 Q
+b10101 P
+b10100 O
+b10011 N
+b0 M
+b10 L
+b110 K
+b101 J
+b100 I
+b11 H
+b1 G
+b1010 C
+b1001 B
+b111 A
+b1000 @
+b1110 ?
+b1101 >
+b1100 =
+b1011 <
+b10010 ;
+b10001 :
+b10000 9
+b1111 8
+b10110 7
+b10101 6
+b10100 5
+b10011 4
+b0 3
+b10 2
+b110 1
+b101 0
+b100 /
+b11 .
+b1 -
+$end
+#0
+$dumpvars
+b0 _
+b1 ^
+b0 F
+b1 E
+b0 D
+b0 ,
+b1 +
+0*
+1)
+1(
+b0 '
+1&
+1%
+0$
+0#
+0"
+0!
+$end
+#10
+0%
+#15
+b1 E
+b1 ^
+1*
+#20
+1%
+#30
+b1 E
+b1 ^
+0%
+0*
+#40
+b10 ^
+b10 E
+b1 _
+b1 D
+1%
+0)
+#45
+b10 E
+b10 ^
+1*
+#50
+0%
+#60
+b1 E
+b1 ^
+1%
+0*
+0&
+#70
+0%
+#75
+1*
+#80
+1%
+#90
+b10 E
+b10 ^
+0%
+0*
+1&
+#100
+b10 D
+b10 _
+1%
+#105
+1*
+#110
+0%
+#120
+1%
+0*
+#130
+b11 E
+b11 ^
+0%
+0&
+b1 '
+b1 ,
+b1 F
+b10 +
+#135
+b10 E
+b10 ^
+1*
+#140
+1%
+#150
+b11 E
+b11 ^
+0%
+0*
+#160
+b10 E
+b10 ^
+1%
+1&
+#165
+1*
+#170
+0%
+#180
+1%
+0*
+#190
+0%
+#195
+1*
+#200
+b1101 _
+b1101 D
+b1101 E
+b1101 ^
+1%
+0&
+b10 '
+b10 ,
+b10 F
+b11 +
+#210
+b10101 E
+b10101 ^
+0%
+0*
+#220
+1$
+b1001 E
+1#
+b1001 ^
+b10101 D
+b10101 _
+1%
+#225
+b1001 E
+b1001 ^
+1*
+#230
+b1001 E
+b1001 ^
+0%
+1&
+#240
+0$
+0#
+b1001 _
+b1001 D
+b1001 E
+b1001 ^
+1%
+0*
+#250
+0%
+#255
+b10001 E
+b10001 ^
+1*
+#260
+1"
+b1101 E
+1!
+b1101 ^
+b10001 D
+b10001 _
+1%
+#270
+b1101 E
+b1101 ^
+0%
+0*
+0&
+b11 '
+b11 ,
+b11 F
+b100 +
+#280
+0"
+0!
+b10101 ^
+b10101 E
+b1101 _
+b1101 D
+1%
+#285
+b1101 E
+b1101 ^
+1*
+#290
+0%
+#300
+b10 D
+b10 _
+b10 E
+b10 ^
+1%
+0*
+1&
+#310
+0%
+#315
+1*
+#320
+1%
+#330
+0%
+0*
+#340
+b1 E
+b1 ^
+b0 D
+b0 _
+1%
+1)
+b101 +
+#345
+b1 E
+b1 ^
+1*
+#350
+0%
+#360
+b1 E
+b1 ^
+1%
+0*
+#370
+0%
+#375
+b1 E
+b1 ^
+1*
+#380
+b1 D
+b1 _
+b1 E
+b1 ^
+1%
+0*
+0&
+b0 '
+b0 ,
+b0 F
+0)
+#390
+0%
+1*
+#400
+1%
+#405
+0*
+#410
+0%
+#420
+1%
+1*
+#430
+0%
+#435
+0*
+#440
+b10 _
+b10 D
+b10 E
+b10 ^
+1%
+1&
+#450
+0%
+1*
+#460
+1%
+#465
+0*
+#470
+0%
+#480
+b1 ^
+b1 E
+b0 _
+b0 D
+1%
+1*
+1)
+b110 +
+#490
+0%
+#495
+b1 E
+b1 ^
+0*
+#500
+1%
+#510
+b1 E
+b1 ^
+0%
+1*
+#520
+b1 _
+b1 D
+b1 E
+b1 ^
+1%
+0&
+b1 '
+b1 ,
+b1 F
+0)
+#525
+0*
+#530
+0%
+#540
+1%
+1*
+#550
+0%
+#555
+0*
+#560
+1%
+1*
+#570
+0%
+0*
+#580
+b10 D
+b10 _
+b10 E
+b10 ^
+1%
+1&
+#585
+1*
+#590
+0%
+#600
+1%
+0*
+#610
+0%
+#615
+1*
+#620
+1%
+b111 +
+#630
+0%
+0*
+#640
+1%
+#645
+1*
+#650
+0%
+#660
+1%
+0*
